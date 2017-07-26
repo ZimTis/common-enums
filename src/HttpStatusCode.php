@@ -10,7 +10,7 @@ class HttpStatusCode extends AbstractEnum
 
     const CREATED_201 = 201;
 
-    const BAD_REQUEST = 400;
+    const BAD_REQUEST_400 = 400;
 
     const UNAUTHORIZED_401 = 401;
 
@@ -20,5 +20,5 @@ class HttpStatusCode extends AbstractEnum
 
     const METHOD_NOT_ALLOWED_405 = 405;
 
-    const NOT_ACCEPTABLE = 406;
+    const NOT_ACCEPTABLE_406 = 406;
 }
