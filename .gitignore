@@ -1,0 +1,9 @@
+vendor/*
+vendor
+composer.phar
+.git/*
+.settings/*
+.project
+.project/*
+.buildpath
+test/schema/*.ser
