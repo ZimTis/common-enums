@@ -78,8 +78,6 @@ class HttpHeader extends AbstractEnum
 
     const CONTENT_LANGUAGE = 'Content-Language';
 
-    const CONTENT_MD5 = 'Content-MD5';
-
     const CONTENT_DISPOSITION = 'Content-Disposition';
 
     const CONTENT_RANGE = 'Content-Range';
