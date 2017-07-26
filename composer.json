@@ -8,7 +8,7 @@
 			"zimtis\\commonenums\\" : "src"
 		}
 	},
-	"name" : "zimtis/common-enumsn",
+	"name" : "zimtis/common-enums",
 	"type" : "library",
 	"description" : "A collection of common enums used by me for rest-apis",
 	"require" : {
@@ -20,8 +20,7 @@
 		"issues" : "https://github.com/ZimTis/common-enums/issues"
 	},
 	"require-dev" : {
-		"php" : ">=5.6",
-		"phpunit/phpunit" : "5.5.*"
+		"php" : ">=5.6"
 	},
 	"license" : "MIT"
 }
