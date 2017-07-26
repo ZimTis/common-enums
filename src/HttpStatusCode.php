@@ -21,4 +21,6 @@ class HttpStatusCode extends AbstractEnum
     const METHOD_NOT_ALLOWED_405 = 405;
 
     const NOT_ACCEPTABLE_406 = 406;
+
+    const INTERNAL_SERVER_ERROR_500 = 500;
 }
