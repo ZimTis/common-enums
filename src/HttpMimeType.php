@@ -1,9 +1,18 @@
 <?php
+
 namespace zimtis\commonenums;
 
-use CommerceGuys\Enum\AbstractEnum;
+use MyCLabs\Enum\Enum;
 
-class HttpMimeType extends AbstractEnum
+/**
+ * Class HttpMimeType
+ * @package zimtis\commonenums
+ *
+ * @method static HttpMimeType JSON()
+ * @method static HttpMimeType HTML()
+ * @method static HttpMimeType XML()
+ */
+class HttpMimeType extends Enum
 {
 
     const JSON = 'application/json';
