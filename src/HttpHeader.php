@@ -65,7 +65,6 @@ use MyCLabs\Enum\Enum;
  */
 class HttpHeader extends Enum
 {
-
     const ACCEPT = "Accept";
 
     const ACCEPT_CHARSET = "Accept-Charset";

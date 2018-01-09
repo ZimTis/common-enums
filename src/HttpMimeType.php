@@ -14,7 +14,6 @@ use MyCLabs\Enum\Enum;
  */
 class HttpMimeType extends Enum
 {
-
     const JSON = 'application/json';
 
     const HTML = 'text/html';
