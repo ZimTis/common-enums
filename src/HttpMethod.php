@@ -23,7 +23,7 @@ use MyCLabs\Enum\Enum;
  * @method static HttpMethod OPTIONS()
  * @method static HttpMethod CONNECT()
  */
-class HttpMethod extends Enum
+class HttpMethod extends StringEnum
 {
     const GET = 'get';
 
@@ -40,24 +40,4 @@ class HttpMethod extends Enum
     const OPTIONS = 'options';
 
     const CONNECT = 'connect';
-
-    /**
-     * Returns the value as upper case
-     *
-     * @return string
-     */
-    public function getValueUpperCase()
-    {
-        return strtoupper(parent::getValue());
-    }
-
-    /**
-     * Returns the value as lower case
-     *
-     * @return string
-     */
-    public function getValueLowerCase()
-    {
-        return strtolower(parent::getValue());
-    }
 }
